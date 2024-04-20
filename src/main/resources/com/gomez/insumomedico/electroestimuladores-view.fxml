@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="fondo" prefHeight="372.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gomez.insumomedico.controllers.ElectroestimuladoresController">
+   <children>
+      <ImageView fitHeight="401.0" fitWidth="614.0" layoutX="-11.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/FONDO%201.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="39.0" layoutY="31.0" text="ELECTROESTIMULADORES" textFill="#5690bf">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="70.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%204.jpg" />
+         </image></ImageView>
+      <Label layoutX="14.0" layoutY="135.0" text="Beurer MG17 Mini Masajeador, blanco" />
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="273.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%203.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="248.0" layoutY="135.0" text="Masajeador Por Golpeteo" />
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="456.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%201.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="414.0" layoutY="135.0" text="Cables para Electroestimulador" />
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="76.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%202.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="297.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%205.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="52.0" layoutY="258.0" text=" Mini Masajeador, verde" />
+      <Label layoutX="252.0" layoutY="258.0" text="Bolsa para agua caliente" />
+      <Button fx:id="salirButton" layoutX="271.0" layoutY="323.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedsalirButton" style="-fx-background-color: #BEE1F1;" text="salir" />
+      <Label layoutX="146.0" layoutY="68.0" text="\$2500" />
+      <Label layoutX="257.0" layoutY="68.0" text="\$3650" />
+      <Label layoutX="448.0" layoutY="68.0" text="\$599" />
+      <Label layoutX="146.0" layoutY="187.0" text="\$2750" />
+      <Label layoutX="365.0" layoutY="187.0" text="\$235" />
+      <Button fx:id="agregaralcarritoButton" layoutX="41.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="agregaralcarritoButton" layoutX="260.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="agregaralcarritoButton" layoutX="441.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="agregaralcarritoButton" layoutX="53.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="agregaralcarritobutton" layoutX="260.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+   </children>
+</AnchorPane>

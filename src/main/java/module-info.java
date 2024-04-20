@@ -3,6 +3,7 @@ module com.gomez.insumomedico {
     requires javafx.fxml;
 
 
+    opens com.gomez.insumomedico.models to javafx.base;
     opens com.gomez.insumomedico to javafx.fxml;
     exports com.gomez.insumomedico;
     exports com.gomez.insumomedico.controllers;

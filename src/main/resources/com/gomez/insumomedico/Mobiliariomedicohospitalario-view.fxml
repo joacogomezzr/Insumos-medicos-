@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="fondo" prefHeight="360.0" prefWidth="604.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gomez.insumomedico.controllers.MobiliariomedicohospitalarioController">
+   <children>
+      <ImageView fitHeight="386.0" fitWidth="600.0" layoutX="4.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/FONDO%201.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="26.0" layoutY="42.0" text="MOBILIARIO MEDICO HOSPITALARIO" textFill="#5690bf">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="52.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%2011.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="26.0" layoutY="138.0" text="Bowl acero inoxidable" />
+      <Button fx:id="agregaralcarritoButton" layoutX="29.0" layoutY="158.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="255.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%2012.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="243.0" layoutY="138.0" text="Budinera grande" />
+      <Button fx:id="agregaralcarritoButton1" layoutX="232.0" layoutY="158.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="425.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%2013.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="408.0" layoutY="138.0" text="Bandeja móvil" />
+      <Button fx:id="agregaralcarritoButton11" layoutX="402.0" layoutY="158.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="61.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%2014.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="50.0" layoutY="264.0" text="Cama de masaje" />
+      <Button fx:id="agregaralcarritoButton2" layoutX="39.0" layoutY="289.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="255.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%2015.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="240.0" layoutY="273.0" text="Mesa pasteur" />
+      <Button fx:id="agregaralcarritoButton21" layoutX="232.0" layoutY="289.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Label layoutX="149.0" layoutY="79.0" text="\$150" />
+      <Label layoutX="342.0" layoutY="79.0" text="\$300" />
+      <Label layoutX="499.0" layoutY="71.0" text="\$700" />
+      <Label layoutX="149.0" layoutY="199.0" text="\$6500" />
+      <Label layoutX="315.0" layoutY="199.0" text="\$400" />
+      <Button fx:id="salirButton" layoutX="269.0" layoutY="324.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedsalirButton" style="-fx-background-color: #BEE1F1;" text="salir" />
+   </children>
+</AnchorPane>

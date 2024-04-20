@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="fondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="354.0" prefWidth="575.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gomez.insumomedico.controllers.InstrumentalQuirurgicoController">
+   <children>
+      <ImageView fitHeight="360.0" fitWidth="622.0" layoutX="-15.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/FONDO%201.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="49.0" layoutY="41.0" text="INSTRUMENTAL QUIRURGICO" textFill="#5690bf">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="69.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%206.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="233.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%207.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="434.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%208.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="256.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%2010.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="agregaralcarritoButton" layoutX="49.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="agregaralcarritoButton1" layoutX="230.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="agregaralcarritoButton2" layoutX="411.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="agregaralcarritoButton3" layoutX="46.0" layoutY="266.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="agregaralcarritoButton4" layoutX="233.0" layoutY="266.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="salirButton" layoutX="259.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedsalirButton" style="-fx-background-color: #BEE1F1;" text="salir" />
+      <Label layoutX="35.0" layoutY="136.0" text="Mango bisturi 4 cuchillas" />
+      <Label layoutX="213.0" layoutY="128.0" text="Pinzas para pasatiempos" />
+      <Label layoutX="410.0" layoutY="136.0" text="Mosquito pinza recta" />
+      <Label layoutX="238.0" layoutY="247.0" text="Kelly pinza recta" />
+      <Label layoutX="50.0" layoutY="247.0" text="Pinza corta esponja" />
+      <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="69.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%209.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="156.0" layoutY="78.0" text="\$250" />
+      <Label layoutX="328.0" layoutY="81.0" text="\$169" />
+      <Label layoutX="498.0" layoutY="73.0" text="\$300" />
+      <Label layoutX="137.0" layoutY="192.0" text="\$150" />
+      <Label layoutX="312.0" layoutY="192.0" text="\$150" />
+   </children>
+</AnchorPane>

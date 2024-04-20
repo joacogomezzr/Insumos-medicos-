@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="fondo" prefHeight="331.0" prefWidth="596.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gomez.insumomedico.controllers.ActualizarDatosController">
+   <children>
+      <ImageView fitHeight="349.0" fitWidth="596.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/3d-blue-abstract-wave-background-ai-generative-free-photo.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nombreTxt" layoutX="282.0" layoutY="65.0" prefHeight="25.0" prefWidth="163.0" visible="false" />
+      <Label fx:id="nombrelabel" layoutX="117.0" layoutY="70.0" prefHeight="15.0" prefWidth="59.0" text="NOMBRE" textFill="#1c2818" visible="false">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="7.0" prefHeight="15.0" prefWidth="244.0" text="ACTUALIZAR DATOS DEL PRODUCTO" textFill="#d5dadd">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="regresarButton" layoutX="117.0" layoutY="283.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedRegresarButton" style="-fx-background-color: #79b6f7;" text="Regresar" visible="false">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="actualizarButton" layoutX="356.0" layoutY="284.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedActualizatButton" style="-fx-background-color: #79b6f7;" text="Actualizar" visible="false">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="marcalabel" layoutX="117.0" layoutY="174.0" prefHeight="15.0" prefWidth="59.0" text=" MARCA" textFill="#170101" visible="false">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nombreTxt1" layoutX="282.0" layoutY="115.0" prefHeight="25.0" prefWidth="163.0" visible="false" />
+      <Label fx:id="preciolabel" layoutX="117.0" layoutY="120.0" prefHeight="15.0" prefWidth="59.0" text="PRECIO" textFill="#022525" visible="false">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="cantidadlabel" layoutX="117.0" layoutY="222.0" prefHeight="15.0" prefWidth="91.0" text=" CANTIDAD " textFill="#01131b" visible="false">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nombreTxt11" layoutX="282.0" layoutY="169.0" prefHeight="25.0" prefWidth="163.0" visible="false" />
+      <TextField fx:id="nombreTxt111" layoutX="282.0" layoutY="217.0" prefHeight="25.0" prefWidth="163.0" visible="false" />
+      <TextField fx:id="nombreTxt2" layoutX="219.0" layoutY="108.0" />
+      <Label fx:id="nomlabel" layoutX="116.0" layoutY="113.0" prefHeight="15.0" prefWidth="62.0" text="NOMBRE" textFill="#000a11">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="volveralmenuButton" layoutX="164.0" layoutY="284.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedVolveralmenuButton" style="-fx-background-color: #79b6f7;" text="Volver al menu">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="agregarButton" layoutX="400.0" layoutY="284.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedAgregarButton" style="-fx-background-color: #79b6f7;" text="Agregar ">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

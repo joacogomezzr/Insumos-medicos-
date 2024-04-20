@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="fondo" prefHeight="353.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gomez.insumomedico.controllers.OtrosController">
+   <children>
+      <ImageView fitHeight="386.0" fitWidth="594.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/FONDO%201.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="20.0" layoutY="34.0" text="OTROS.." textFill="#5690bf">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="93.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/IMG%2027.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="224.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%2028.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="393.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%2029.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="96.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%2030.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="64.0" layoutX="278.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img%2031.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="69.0" layoutY="134.0" text="Bata quirurgica" />
+      <Label layoutX="214.0" layoutY="134.0" text="Maletin de enfermeria" />
+      <Label layoutX="381.0" layoutY="134.0" text="Sistema esqueletico" />
+      <Label layoutX="59.0" layoutY="255.0" text="BEBÉ para entrenamiento" />
+      <Label layoutX="251.0" layoutY="255.0" text="Bata de hospital" />
+      <Button fx:id="agregaralcarritoButton" layoutX="62.0" layoutY="151.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="agregaralcarritoButton1" layoutX="217.0" layoutY="151.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="agregaralcarritoButton11" layoutX="378.0" layoutY="151.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="agregaralcarritoButton111" layoutX="71.0" layoutY="272.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="agregaralcarritoButton1111" layoutX="242.0" layoutY="272.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedagregaralcarritoButton" prefHeight="15.0" prefWidth="110.0" style="-fx-background-color: #BEE1F1;" text="Agregar al carrito" />
+      <Button fx:id="salirButton" layoutX="269.0" layoutY="324.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedsalirButton" style="-fx-background-color: #BEE1F1;" text="salir" />
+      <Label layoutX="141.0" layoutY="70.0" text="\$400" />
+      <Label layoutX="294.0" layoutY="70.0" text="\$250" />
+      <Label layoutX="450.0" layoutY="70.0" text="\$950" />
+      <Label layoutX="141.0" layoutY="186.0" text="\$150" />
+      <Label layoutX="325.0" layoutY="186.0" text="\$120" />
+   </children>
+</AnchorPane>

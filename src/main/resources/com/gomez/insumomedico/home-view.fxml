@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" prefHeight="384.0" prefWidth="605.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gomez.insumomedico.controllers.HomeController">
+<VBox alignment="CENTER" prefHeight="361.0" prefWidth="605.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gomez.insumomedico.controllers.HomeController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -19,26 +19,32 @@
       <children>
          <ImageView fitHeight="344.0" fitWidth="563.0" layoutX="-5.0" pickOnBounds="true" preserveRatio="true">
             <image>
-               <Image url="@imagenes/FONDO%201.jpeg" />
+               <Image url="@imagenes/3d-blue-abstract-wave-background-ai-generative-free-photo.jpg" />
             </image>
          </ImageView>
       
-          <Label fx:id="welcomeText" layoutX="28.0" layoutY="26.0" prefHeight="17.0" prefWidth="156.0" text="INSUMOS MEDICOS BIO X" textFill="#4275a4">
+          <Label fx:id="welcomeText" layoutX="28.0" layoutY="26.0" prefHeight="17.0" prefWidth="156.0" text="INSUMOS MEDICOS BIO X" textFill="#e4e4e4">
             <font>
                <Font name="System Bold Italic" size="12.0" />
             </font>
          </Label>
          <HBox layoutX="93.0" layoutY="96.0" prefHeight="179.0" prefWidth="368.0" style="-fx-background-color: #D6EAF8;">
             <children>
-               <AnchorPane prefHeight="179.0" prefWidth="368.0">
+               <AnchorPane prefHeight="179.0" prefWidth="368.0" style="-fx-background-color: #3786DA;">
                   <children>
-                     <Label layoutX="21.0" layoutY="14.0" text="INICIAR SESION" textFill="#034990">
+                     <Label layoutX="21.0" layoutY="14.0" text="INICIAR SESION" textFill="#ecedee">
                         <font>
                            <Font name="System Italic" size="12.0" />
                         </font>
                      </Label>
-                     <Button fx:id="aceptarButton" layoutX="56.0" layoutY="132.0" mnemonicParsing="false" onMouseClicked="#onClickAceptarButton" text="Aceptar" textFill="#141414" />
-                     <Button fx:id="salirButton" layoutX="263.0" layoutY="132.0" mnemonicParsing="false" onMouseClicked="#onClickSalirButton" text="Salir" />
+                     <Button fx:id="aceptarButton" layoutX="36.0" layoutY="132.0" mnemonicParsing="false" onMouseClicked="#onClickAceptarButton" style="-fx-background-color: #FDFEFF;" text="Aceptar" textFill="#141414">
+                        <font>
+                           <Font name="System Bold" size="12.0" />
+                        </font></Button>
+                     <Button fx:id="salirButton" layoutX="252.0" layoutY="132.0" mnemonicParsing="false" onMouseClicked="#onClickSalirButton" style="-fx-background-color: #FDFEFF;" text="Salir">
+                        <font>
+                           <Font name="System Bold" size="12.0" />
+                        </font></Button>
                      <TextField fx:id="usuarioTxt" layoutX="64.0" layoutY="43.0" prefHeight="33.0" prefWidth="200.0" promptText="USUARIO" />
                      <TextField fx:id="contraseñaTxt" layoutX="64.0" layoutY="90.0" prefHeight="33.0" prefWidth="200.0" promptText="CONTRASEÑA" />
                   </children>

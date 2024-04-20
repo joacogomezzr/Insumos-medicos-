@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="358.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gomez.insumomedico.controllers.MostrarUsuariosController">
+   <children>
+      <ImageView fx:id="fondo" fitHeight="393.0" fitWidth="600.0" layoutX="1.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/fond2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="212.0" layoutY="61.0" prefHeight="15.0" prefWidth="140.0" text="MOSTRAR  USUARIOS" textFill="#5690bf">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="115.0" prefHeight="15.0" prefWidth="62.0" text="NOMBRE" textFill="#000a11">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="111.0" layoutY="161.0" prefHeight="15.0" prefWidth="76.0" text="APELLIDOS" textFill="#000a11">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="206.0" prefHeight="15.0" prefWidth="62.0" text="EDAD" textFill="#000a11">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Nombre" layoutX="231.0" layoutY="110.0" />
+      <TextField fx:id="Apellidos" layoutX="231.0" layoutY="156.0" />
+      <TextField fx:id="Edad" layoutX="231.0" layoutY="201.0" />
+      <Button fx:id="volveralmenuButton" layoutX="154.0" layoutY="274.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedVolveralmenuButton" style="-fx-background-color: #BEE1F1;" text="Volver al menu" />
+      <Button fx:id="agregarButton" layoutX="390.0" layoutY="274.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedAgregarButton" style="-fx-background-color: #BEE1F1;" text="Agregar ">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

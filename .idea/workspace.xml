@@ -4,39 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e82f6dc-9b09-4e45-a094-842252b4e416" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/AgregarProductoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/AgregarUsuarioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/EliminarUsuarioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/MenuAdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/MenuSuperController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/SuperController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/models/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/models/Compras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/models/Usuarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/admin-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/home-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/imagenes/FONDO 1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/imagenes/icons8-buscar-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/imagenes/icons8-encuentra-hombre-usuario-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/imagenes/icons8-me-58.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/imagenes/icons8-productos-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/imagenes/icons8-usuario-50.png" afterDir="false" />
+    <list default="true" id="2e82f6dc-9b09-4e45-a094-842252b4e416" name="Changes" comment="Primer commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/BuscarProductosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/BuscarUsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/EliminarProductoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/MostrarProductosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/MostrarUsuariosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/PedidosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/models/Productos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/ActualizarDatos-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/AgregarUsuario-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/BuscarProductos-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/BuscarUsuario-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/EliminarProducto-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/Mobiliariomedicohospitalario-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/MostrarProductos-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/MostrarUsuarios-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/Oficinas-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/Otros-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/Pedidos-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/agregarProducto-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/electroestimuladores-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/imagenes/icons8-cancelar-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/instrumentalQuirurgico-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/laboratorio-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/AgregarProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/AgregarProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/AgregarUsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/AgregarUsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/EliminarUsuarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/MenuAdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/MenuSuperController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/controllers/SuperController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/models/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/models/Compras.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/models/Usuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gomez/insumomedico/models/Usuarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/admin-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/admin-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/home-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/home-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/imagenes/icons8-encuentra-hombre-usuario-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/gomez/insumomedico/imagenes/icons8-encuentra-hombre-usuario-50.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +53,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaFXApplication" />
         <option value="Class" />
         <option value="FxmlFile" />
       </list>
@@ -70,24 +78,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Run",
-    "Application.HelloApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Jnune/IdeaProjects/InsumoMedico/src/main/resources/com/gomez/insumomedico&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jnune/IdeaProjects/InsumoMedico&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jnune\IdeaProjects\InsumoMedico\src\main\resources\com\gomez\insumomedico\imagenes" />
@@ -99,7 +109,7 @@
       <module name="InsumoMedico" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gomez.insumomedico.*" />
+          <option name="PATTERN" value="com.gomez.insumomedico.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +134,53 @@
       <workItem from="1711239532761" duration="5883000" />
       <workItem from="1711328688923" duration="2979000" />
       <workItem from="1711493055136" duration="62000" />
-      <workItem from="1711493151491" duration="6615000" />
+      <workItem from="1711493151491" duration="9624000" />
+      <workItem from="1711671492554" duration="6254000" />
+      <workItem from="1711846097042" duration="7167000" />
+      <workItem from="1711925667545" duration="2013000" />
+      <workItem from="1712000282863" duration="3299000" />
+      <workItem from="1712084002628" duration="4184000" />
+      <workItem from="1712574309888" duration="96000" />
+      <workItem from="1712599739441" duration="651000" />
+      <workItem from="1712620097955" duration="7031000" />
+      <workItem from="1712678917804" duration="1724000" />
+      <workItem from="1712892473283" duration="685000" />
+      <workItem from="1712939714704" duration="1242000" />
+      <workItem from="1712966216880" duration="13896000" />
+      <workItem from="1713064513511" duration="5575000" />
+      <workItem from="1713156881144" duration="255000" />
+      <workItem from="1713157383254" duration="4657000" />
+      <workItem from="1713187625208" duration="2065000" />
+      <workItem from="1713193431076" duration="440000" />
+      <workItem from="1713212328889" duration="11000" />
+      <workItem from="1713240373498" duration="339000" />
+      <workItem from="1713244988865" duration="221000" />
+      <workItem from="1713282247347" duration="385000" />
+      <workItem from="1713290250749" duration="5450000" />
+      <workItem from="1713322849296" duration="5547000" />
+      <workItem from="1713340195714" duration="37000" />
+      <workItem from="1713365218000" duration="363000" />
+      <workItem from="1713401471008" duration="12296000" />
+      <workItem from="1713448020332" duration="9361000" />
+      <workItem from="1713460975951" duration="41000" />
+      <workItem from="1713487913594" duration="161000" />
     </task>
+    <task id="LOCAL-00001" summary="Primer commit">
+      <option name="closed" value="true" />
+      <created>1711509388449</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711509388449</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
   </component>
 </project>

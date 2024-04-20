@@ -1,7 +1,6 @@
 package com.gomez.insumomedico.controllers;
 
 import com.gomez.insumomedico.Application;
-import com.gomez.insumomedico.models.Usuarios;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -10,13 +9,11 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
-public class AgregarUsuarioController {
+public class MostrarUsuariosController {
 
     @FXML
     private TextField Apellidos;
@@ -31,29 +28,14 @@ public class AgregarUsuarioController {
     private Button agregarButton;
 
     @FXML
-    private AnchorPane fondo;
+    private ImageView fondo;
 
     @FXML
     private Button volveralmenuButton;
 
     @FXML
     void OnMouseClickedAgregarButton(MouseEvent event) {
-        ArrayList<Usuarios> usuarios = Application.getUsuario().getListaUsuarios();
 
-        String nombre = Nombre.getText();
-        String apellidos = Apellidos.getText();
-        String edad = Edad.getText();
-
-        Usuarios usuario = new Usuarios(nombre, apellidos, edad);
-
-        if (usuarios.add(usuario)) {
-            mostrarAlerta("Éxito", "El usuario se guardó correctamente");
-
-            System.out.println("Se agregó a: ");
-            System.out.println("Nombre: "+usuario.getNombre());
-            System.out.println("Apellidos: "+usuario.getApellidos());
-            System.out.println("Edad: "+usuario.getEdad());
-        }
     }
 
     @FXML
@@ -75,6 +57,7 @@ public class AgregarUsuarioController {
         alerta.setHeaderText(null);
         alerta.setContentText(mensaje);
         alerta.showAndWait();
-    }
 
+    }
 }
+

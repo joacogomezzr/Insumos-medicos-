@@ -7,75 +7,96 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="fondo" prefHeight="337.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gomez.insumomedico.controllers.AdminController">
+<AnchorPane fx:id="fondo" prefHeight="341.0" prefWidth="558.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gomez.insumomedico.controllers.AdminController">
    <children>
-      <AnchorPane layoutY="-19.0" prefHeight="378.0" prefWidth="615.0">
+      <AnchorPane fx:id="fondo" layoutY="-19.0" prefHeight="360.0" prefWidth="553.0">
          <children>
             <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="154.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="369.0" fitWidth="635.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="341.0" fitWidth="632.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@imagenes/FONDO%201.jpeg" />
+                  <Image url="@imagenes/fond2.jpg" />
                </image>
             </ImageView>
-            <AnchorPane layoutX="67.0" layoutY="137.0" prefHeight="104.0" prefWidth="504.0" style="-fx-background-color: #DFF5FF;">
+            <AnchorPane layoutY="19.0" prefHeight="57.0" prefWidth="243.0">
                <children>
-                  <AnchorPane layoutX="6.0" layoutY="8.0" prefHeight="92.0" prefWidth="92.0">
-                     <children>
-                        <Button fx:id="buscarusuarioButton" layoutY="66.0" mnemonicParsing="false" onMouseClicked="#onClickBuscarUsuarioButton" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: #DAE3E1;" text="Buscar Usuario" textAlignment="JUSTIFY" />
-                        <ImageView fitHeight="83.0" fitWidth="46.0" layoutX="26.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@imagenes/icons8-encuentra-hombre-usuario-50.png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </AnchorPane>
-                  <AnchorPane layoutX="252.0" layoutY="8.0" prefHeight="92.0" prefWidth="98.0">
-                     <children>
-                        <Button fx:id="buscarproductoButton" layoutY="66.0" mnemonicParsing="false" onMouseClicked="#onClickBuscarProductoButton" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #DAE3E1;" text="Buscar Producto" textAlignment="JUSTIFY" />
-                        <ImageView fitHeight="71.0" fitWidth="46.0" layoutX="30.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@imagenes/icons8-buscar-50.png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </AnchorPane>
-                  <AnchorPane layoutX="374.0" layoutY="6.0" prefHeight="92.0" prefWidth="98.0">
-                     <children>
-                        <Button fx:id="mostrarproductosButton" layoutY="66.0" mnemonicParsing="false" onMouseClicked="#onClickMostrarProductosButton" prefHeight="25.0" prefWidth="116.0" style="-fx-background-color: #DAE3E1;" text="Mostrar Productos" textAlignment="JUSTIFY" />
-                        <ImageView fitHeight="71.0" fitWidth="46.0" layoutX="35.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@imagenes/icons8-productos-50.png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </AnchorPane>
-                  <AnchorPane layoutX="121.0" layoutY="8.0" prefHeight="92.0" prefWidth="98.0">
-                     <children>
-                        <Button fx:id="mostrarusuariosButton" layoutY="66.0" mnemonicParsing="false" onMouseClicked="#onClickMostrarUsuariosButton" prefHeight="25.0" prefWidth="116.0" style="-fx-background-color: #DAE3E1;" text="Mostrar Usuarios" textAlignment="JUSTIFY" />
-                        <ImageView fitHeight="71.0" fitWidth="46.0" layoutX="30.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@imagenes/icons8-usuario-50.png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </AnchorPane>
-               </children>
-            </AnchorPane>
-            <AnchorPane layoutX="26.0" layoutY="44.0" prefHeight="57.0" prefWidth="243.0">
-               <children>
-                  <ImageView fitHeight="40.0" fitWidth="46.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="43.0" fitWidth="29.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@imagenes/icons8-me-58.png" />
+                        <Image url="@imagenes/icons8-menú-48.png" />
                      </image>
                   </ImageView>
-                  <Label layoutX="83.0" layoutY="20.0" text="ADMINISTRADOR">
+                  <Label layoutX="64.0" layoutY="15.0" text="MENÚ">
                      <font>
                         <Font name="System Bold Italic" size="12.0" />
                      </font>
                   </Label>
                </children>
             </AnchorPane>
-            <Button fx:id="salirButton" layoutX="282.0" layoutY="283.0" mnemonicParsing="false" onMouseClicked="#onClickSalirButton" style="-fx-background-color: #336699;" text="Salir" />
+            <Button fx:id="salirButton" layoutX="527.0" layoutY="334.0" mnemonicParsing="false" onMouseClicked="#onClickSalirButton" style="-fx-background-color: #79b6f7;" text="Salir" textFill="WHITE" />
+            <Button fx:id="eliminarProductosButton" layoutX="403.0" layoutY="153.0" mnemonicParsing="false" onMouseClicked="#onClickEliminarProductosButton" prefHeight="25.0" prefWidth="124.0" style="-fx-background-color: #79b6f7;" text="Eliminar Productos" textAlignment="JUSTIFY" textFill="#070000">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button fx:id="agregarProductosButton" layoutX="292.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#onClickAgregarProductosButton" prefHeight="25.0" prefWidth="124.0" style="-fx-background-color: #79b6f7;" text="Agregar Productos" textAlignment="JUSTIFY" textFill="#140000">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button fx:id="buscarusuarioButton" layoutX="20.0" layoutY="153.0" mnemonicParsing="false" onMouseClicked="#onClickBuscarUsuarioButton" prefHeight="25.0" prefWidth="101.0" style="-fx-background-color: #79b6f7;" text="Buscar Usuario" textAlignment="JUSTIFY" textFill="#0d0000">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button fx:id="mostrarProductosButton" layoutX="134.0" layoutY="151.0" mnemonicParsing="false" onMouseClicked="#onClickMostrarProductosButton" prefHeight="25.0" prefWidth="124.0" style="-fx-background-color: #79b6f7;" text="Mostrar Productos" textAlignment="JUSTIFY" textFill="#1e0101">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button fx:id="AgregarusuariosButton" layoutX="153.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#onClickAgregarUsuariosButton" prefHeight="25.0" prefWidth="116.0" style="-fx-background-color: #79b6f7;" text="Agregar Usuarios" textAlignment="JUSTIFY" textFill="#0a0000">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button fx:id="buscarProductosButton" layoutX="269.0" layoutY="151.0" mnemonicParsing="false" onMouseClicked="#onClickBuscarProductosButton" prefHeight="25.0" prefWidth="116.0" style="-fx-background-color: #79b6f7;" text="Buscar Productos" textAlignment="JUSTIFY" textFill="#0a0000">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="71.0" fitWidth="46.0" layoutX="327.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagenes/icons8-agregar-a-favoritos-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="71.0" fitWidth="46.0" layoutX="426.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagenes/icons8-eliminar-50%20(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="71.0" fitWidth="46.0" layoutX="304.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagenes/icons8-buscar-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="71.0" fitWidth="46.0" layoutX="188.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagenes/icons8-usuario-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="46.0" fitWidth="43.0" layoutX="168.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagenes/icons8-mostrar-propiedad-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="46.0" fitWidth="45.0" layoutX="48.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagenes/icons8-encuentra-hombre-usuario-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.0" fitWidth="39.0" layoutX="266.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagenes/icons8-actualizar-50.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="ActualizarDatosDelProductoButton" layoutX="196.0" layoutY="322.0" mnemonicParsing="false" onMouseClicked="#onClickActualizarDatosDelProductoProductosButton" prefHeight="25.0" prefWidth="193.0" style="-fx-background-color: #79b6f7;" text="Actualizar Datos Del Producto" textAlignment="JUSTIFY" textFill="#140000">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
          </children>
       </AnchorPane>
    </children>

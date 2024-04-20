@@ -1,7 +1,8 @@
 package com.gomez.insumomedico.controllers;
 
 import com.gomez.insumomedico.Application;
-import com.gomez.insumomedico.models.Usuarios;
+import com.gomez.insumomedico.models.Productos;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -10,49 +11,45 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class AgregarUsuarioController {
+public class EliminarProductoController {
 
     @FXML
-    private TextField Apellidos;
+    private Button eliminarButton;
 
     @FXML
-    private TextField Edad;
+    private ImageView fondo;
 
     @FXML
-    private TextField Nombre;
-
-    @FXML
-    private Button agregarButton;
-
-    @FXML
-    private AnchorPane fondo;
+    private TextField nombreTxt;
 
     @FXML
     private Button volveralmenuButton;
 
     @FXML
-    void OnMouseClickedAgregarButton(MouseEvent event) {
-        ArrayList<Usuarios> usuarios = Application.getUsuario().getListaUsuarios();
+    void OnMouseClickedEliminarButton(MouseEvent event) {
+        String nombre = nombreTxt.getText();
 
-        String nombre = Nombre.getText();
-        String apellidos = Apellidos.getText();
-        String edad = Edad.getText();
+        //ArrayList<Productos> listaProductos = Application.getProducto().getListaProductos();
+        ObservableList<Productos> listaProductos = Application.getProductos();
 
-        Usuarios usuario = new Usuarios(nombre, apellidos, edad);
+        Productos productoEliminar = null;
+        for (Productos producto : listaProductos) {
+            if (producto.getNombre().equals(nombre)) {
+                productoEliminar = producto;
+                break;
+            }
+        }
 
-        if (usuarios.add(usuario)) {
-            mostrarAlerta("Éxito", "El usuario se guardó correctamente");
-
-            System.out.println("Se agregó a: ");
-            System.out.println("Nombre: "+usuario.getNombre());
-            System.out.println("Apellidos: "+usuario.getApellidos());
-            System.out.println("Edad: "+usuario.getEdad());
+        if (productoEliminar != null) {
+            listaProductos.remove(productoEliminar);
+            mostrarAlerta("Éxito", "Se ha eliminado el producto correctamente.");
+        } else {
+            mostrarAlerta("Error", "No se encontró ningún producto con ese nombre");
         }
     }
 
@@ -76,5 +73,4 @@ public class AgregarUsuarioController {
         alerta.setContentText(mensaje);
         alerta.showAndWait();
     }
-
 }

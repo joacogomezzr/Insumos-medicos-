@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="351.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gomez.insumomedico.controllers.BuscarUsuarioController">
+   <children>
+      <ImageView fx:id="fondo" fitHeight="393.0" fitWidth="600.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/fond2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="220.0" layoutY="41.0" prefHeight="15.0" prefWidth="140.0" text="BUSCAR  USUARIOS" textFill="#5690bf">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="78.0" prefHeight="15.0" prefWidth="62.0" text="NOMBRE" textFill="#000a11">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Nombre" layoutX="242.0" layoutY="73.0" />
+      <Button fx:id="volveralmenuButton" layoutX="164.0" layoutY="284.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedVolveralmenuButton" style="-fx-background-color: #BEE1F1;" text="Volver al menu" />
+      <Button fx:id="agregarButton" layoutX="400.0" layoutY="284.0" mnemonicParsing="false" onMouseClicked="#OnMouseClickedAgregarButton" style="-fx-background-color: #BEE1F1;" text="Buscar">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="nomLabel" layoutX="138.0" layoutY="135.0" prefHeight="15.0" prefWidth="62.0" text="NOMBRE" textFill="#000a11" visible="false">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="apellidosLabel" layoutX="131.0" layoutY="181.0" prefHeight="15.0" prefWidth="76.0" text="APELLIDOS" textFill="#000a11" visible="false">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="edadLabel" layoutX="138.0" layoutY="226.0" prefHeight="15.0" prefWidth="62.0" text="EDAD" textFill="#000a11" visible="false">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nomTxt" layoutX="251.0" layoutY="130.0" visible="false" />
+      <TextField fx:id="apellidosTxt" layoutX="251.0" layoutY="176.0" visible="false" />
+      <TextField fx:id="edadTxt" layoutX="251.0" layoutY="221.0" visible="false" />
+   </children>
+</AnchorPane>
